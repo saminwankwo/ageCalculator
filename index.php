@@ -20,8 +20,7 @@
 				<select name = "month" required>
 					<option value="">Month</option>
 					<?php for ($month=01; $month <=12 ; $month++) { 
-						echo "<option value='$month'>$month</option>";
-					}?>
+						echo "<option value='$month'>$month</option>";					}?>
 				</select>
 
 				<select name="year" required>
